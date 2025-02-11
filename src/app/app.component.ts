@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LandingPageComponent } from './landingPage/landingPage.component'; //ts wird nicht mitgeschreiben
+import { MainContentComponent } from "./main-content/main-content.component";
+import { OurMenuComponent } from './main-content/our-menu/our-menu.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LandingPageComponent],
+  imports: [RouterOutlet, MainContentComponent, OurMenuComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

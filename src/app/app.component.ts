@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MainContentComponent } from "./main-content/main-content.component";
-import { OurMenuComponent } from './main-content/our-menu/our-menu.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { LandingPageComponent } from './landingPage/landingPage.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainContentComponent, OurMenuComponent, FooterComponent],
+  imports: [RouterOutlet, LandingPageComponent, MainContentComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

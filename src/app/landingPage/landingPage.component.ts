@@ -7,8 +7,8 @@ import { RouterOutlet } from '@angular/router'; //@ bezeichnet Pfad
     standalone: true,
     imports: [],    //wenn wir etwas importieren möchten, Kevin tut cCommonModule rein, den habe ich nicht
     template: `<section>
-        <h1>SAKURA RAMEN</h1>
-        <h4>THE BEST RAMEN IN TOWN</h4>
+        <h1 class="fontRaleway">SAKURA RAMEN</h1>
+        <h4 class="fontRaleway">THE BEST RAMEN IN TOWN</h4>
         </section>`,   //wir können auch bloß url eingeben als templateUrls (wird angeboten)
     styleUrls: ['./landingPage.component.scss']
 })

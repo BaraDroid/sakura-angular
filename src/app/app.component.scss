@@ -1,3 +1,21 @@
 html {
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../../public/assets/fonts/Raleway/OFL.txt);
+}
+
+@font-face {
+    font-family: 'Economica';
+    src: url(../../public/assets/fonts/Economica/OFL.txt);
+}
+
+.fontRaleway {
+    font-family: 'Raleway';
+}
+
+.fontEconomica {
+    font-family: 'Economica';
+}

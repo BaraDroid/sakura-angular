@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    padding: 15px;
+    >img {
+        width: 128px;
+    }
+    >h3 {
+            font-size: 56px;
+            font-weight: bold;
+            margin: 0;
+        }
+    }

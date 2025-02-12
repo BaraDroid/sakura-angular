@@ -1,0 +1,29 @@
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    >img {width: 352px;}
+    >div {
+        display: flex;
+        flex-direction: column; 
+        gap: 16px;
+        >h3 {
+            font-size: 56px;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+    >table {
+        font-size: 32px;
+        color: #675E54;
+        margin: 0;
+        padding-top: 16px;
+        >tr {
+            padding: 4px;
+            &:first-child {
+                padding-right: 150px;
+            }
+        }
+    }
+}

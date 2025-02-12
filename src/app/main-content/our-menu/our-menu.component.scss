@@ -1,0 +1,15 @@
+div {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../../../public/assets/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+    >h2 {
+        font-size: 80px;
+        color:#9F0908;
+        margin-bottom: 64px;
+    }
+}

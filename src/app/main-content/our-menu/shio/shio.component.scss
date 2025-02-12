@@ -20,11 +20,10 @@ div {
             padding-top: 16px;
             >tr {
                 padding: 14px;
-                &:first-child {
+                td:first-of-type{
                     padding-right: 150px;
-                }
+                }            
             }
         }
     }
-    
 }

@@ -1,0 +1,9 @@
+div {
+    min-height: calc(100vh - 144px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >span {
+        font-size: 50px;
+    }
+}

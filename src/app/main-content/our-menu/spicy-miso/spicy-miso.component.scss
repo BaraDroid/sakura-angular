@@ -1,11 +1,9 @@
 div {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     gap: 80px;
-    flex-direction: row-reverse;
-    margin-top: 56px;
-    margin-bottom: 56px;
     >img {width: 352px;}
     >div {
         display: flex;
@@ -22,12 +20,11 @@ div {
             margin: 0;
             padding-top: 16px;
             >tr {
-                padding: 4px;
-                &:first-child {
+                padding: 14px;
+                td:first-of-type{
                     padding-right: 150px;
-                }
+                }            
             }
         }
     }
-    
 }

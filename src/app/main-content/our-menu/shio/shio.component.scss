@@ -13,14 +13,14 @@ div {
             font-weight: bold;
             margin: 0;
         }
-        & table {
+        >table {
             font-size: 32px;
             color: #675E54;
             margin: 0;
             padding-top: 16px;
             >tr {
                 padding: 4px;
-                &:first-of-type {
+                &:first-child {
                     padding-right: 150px;
                 }
             }
